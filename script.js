@@ -13,19 +13,9 @@ var editorHTML=
 '</body>'+
 '</html>';
 
-var defaultCode='
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html>
-';
+var defaultCode='<h3>Welcome to our online real-time HTML editor!</h3>\n'+
+'<p>Type some HTML code in the textarea above, and it will appear in the frame below.</p>\n'+
+'<p>Webmaster and SEO tool by <a href="http://www.cloxy.net/" target="_top">Cloxy Tools</a>.</p>';
 
 function init() {
 	window.editor.document.open();
