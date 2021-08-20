@@ -13,14 +13,14 @@ var editorHTML=
 '</body>'+
 '</html>';
 
-var defaultCode='<head>'+
-'<meta charset="utf-8" />'+
-'<title></title>'+
-'<style></style>e'+
-'</head>'+
-'<body'+
-'<p>Welcome to the best html editor by Cdobby Studios</p>'+
-'</body>';
+var defaultCode='<head>/n'+
+'<meta charset="utf-8" />/n'+
+'<title></title>/n'+
+'<style></style>/n'+
+'</head>/n'+
+'<body/n'+
+'<p>Welcome to the best html editor by Cdobby Studios</p>/n'+
+'</body>/n';
 
 function init() {
 	window.editor.document.open();
